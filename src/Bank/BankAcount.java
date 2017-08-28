@@ -1,6 +1,6 @@
 package Bank;
 
-public class BankAcount {
+public abstract class BankAcount {
 	String name;
 	int periodMounths;
 	double interestYearProcent;
