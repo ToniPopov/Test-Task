@@ -11,6 +11,6 @@ public class Deposit extends BankAcount {
 	public String toString(){
 		return "Name: "+this.name+"\nPeriod for Mounth: "+this.periodMounths
 				+"\nInterest for an year in %: "+this.interestYearProcent+"\nPresents: "+this.presentsLeva
-				+" lv\nMounth deposit payent: "+this.mounthSumDepPayment;
+				+" lv\nMounth deposit payment: "+this.mounthSumDepPayment;
 	}
 }

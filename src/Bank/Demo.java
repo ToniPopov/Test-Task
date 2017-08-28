@@ -5,7 +5,7 @@ import java.util.Random;
 public class Demo {
 
 	public static void main(String[] args) {
-		Client client = new Client("Toni" , "Sofia",500,5000);
+//		Client client = new Client("Toni" , "Sofia",500,5000);
 		Deposit shortDeposit = new Deposit("Short Deposit" ,3,3,5000);
 		Deposit longDeposit = new Deposit("Long Deposit" ,12,5,5000);
 		
