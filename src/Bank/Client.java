@@ -6,7 +6,8 @@ import java.util.Iterator;
 public class Client {
 	private String name;
 	private String address;
-	private double moneyCash;
+	double moneyCash;
+	
 	private double mounthSalary;
 	ArrayList<Credit> creditList = new ArrayList<Credit>();
 	ArrayList<Deposit> depositList = new ArrayList<Deposit>();
@@ -51,5 +52,11 @@ public class Client {
 		return "Name: " + this.name + "\nAddress: " + this.address + "\nMoney in cash: " + this.moneyCash
 				+ "\nMounth salary lv: " + this.mounthSalary + "\nNumber of credits: " + this.creditList.size()
 				+ "\nNumber of deposits: " + this.depositList.size();
+	}
+	public double getMounthSalary(){
+		return this.mounthSalary;
+	}
+	public double getMoneyCash() {
+		return this.moneyCash;
 	}
 }
