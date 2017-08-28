@@ -10,10 +10,13 @@ public class Lawyer extends Jurist{
 
 	@Override
 	void askQuestion() {
-		// TODO Auto-generated method stub
-		
+		for (int i = 0; i < 3; i++) {
+			System.out.println("Ask question to the Accuser ");
+		}
+		for (int i = 0; i < 2; i++) {
+			System.out.println("Ask question to the witneses ");
+		}
 	}
-
 	@Override
 	void takeNotes() {
 		// TODO Auto-generated method stub
