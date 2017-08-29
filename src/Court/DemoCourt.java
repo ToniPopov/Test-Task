@@ -17,7 +17,7 @@ public class DemoCourt {
 		// delo.printJuror();
 		Case delo2 = new Case(witness, accused, prosec, judge, CaseEnum.CRIMINAL);
 		Court vTurnovo = new Court("Veliko Turnovo", "do carevec");
-
+		
 		vTurnovo.addCase(delo);
 		vTurnovo.addCase(delo2);
 		

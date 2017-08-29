@@ -71,7 +71,6 @@ public class BusSticker extends Vinetka {
 			if (entr.getKey().equals(key)) {
 				for (Iterator<Vinetka> iterator = entr.getValue().iterator(); iterator.hasNext();) {
 					if (iterator.next() instanceof BusSticker) {
-						System.out.println(iterator.next());
 						iterator.remove();
 						break done;
 					}
