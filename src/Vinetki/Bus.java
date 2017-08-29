@@ -9,4 +9,10 @@ public class Bus extends Vehicle{
 		this.busSticker=new BusSticker();
 	}
 
+	@Override
+	public String toString() {
+		return "Bus sticker: " + this.busSticker + "\n";
+	}
+	
+
 }

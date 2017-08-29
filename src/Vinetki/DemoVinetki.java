@@ -18,8 +18,8 @@ public class DemoVinetki {
 		driver.addCar(kola);
 		System.out.println(driver.cars.size());
 		
-		driver.cars.get(0).carSticker = driver.cars.get(0).carSticker.getVinetka(driver, "day", petrol);
-		driver.cars.get(1).carSticker = driver.cars.get(1).carSticker.getVinetka(driver, "day", petrol);
+		driver.cars.get(0).carSticker.getVinetka(driver, "day", petrol);
+		driver.cars.get(1).carSticker.getVinetka(driver, "day", petrol);
 		driver.buses.get(0).busSticker.getVinetka(driver, "month",petrol );
 
 		System.out.println(driver);

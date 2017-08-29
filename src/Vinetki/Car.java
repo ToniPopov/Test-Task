@@ -9,4 +9,12 @@ public class Car extends Vehicle {
 		carSticker = new CarSticker();
 	}
 
+	@Override
+	public String toString() {
+		return "Car sticker: " + this.carSticker + "\n";
+	}
+	
+	
+	
+
 }

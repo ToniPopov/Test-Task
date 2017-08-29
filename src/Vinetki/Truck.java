@@ -8,5 +8,8 @@ public class Truck extends Vehicle {
 		super(name, yearOfProduce);
 		this.truckSticker = new TruckSticker();
 	}
+	public String toString() {
+		return "Truck sticker: " + this.truckSticker + "\n";
+	}
 
 }

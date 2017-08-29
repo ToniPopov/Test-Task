@@ -23,12 +23,12 @@ public class PetrolStation {
 		vinetki.size();
 		for (Map.Entry<String, TreeSet<Vinetka>> entry : vinetki.entrySet()) {
 			for (Vinetka element : entry.getValue()) {
-				System.out.println(entry.getKey());
-				System.out.println(element);
+//				System.out.println(entry.getKey());
+//				System.out.println(element);
 				count++;
 			}
 		}
-		System.out.println(count);
+		System.out.println("broi vinetki "+count);
 	}
 
 	private void reloadWithVinetki() {
