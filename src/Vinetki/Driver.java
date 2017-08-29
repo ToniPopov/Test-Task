@@ -5,8 +5,10 @@ import java.util.ArrayList;
 public class Driver {
 	String name;
 	int money;
-	ArrayList<Vehicle> cars = new ArrayList<Vehicle>();
-
+	ArrayList<Car> cars = new ArrayList<Car>();
+	ArrayList<Bus> buses = new ArrayList<Bus>();
+	ArrayList<Truck> trucks = new ArrayList<Truck>();
+	
 	Driver(String name, int money) {
 		this.name = stringCheck(name);
 		this.money = money >= 0 ? money : 0;
@@ -20,9 +22,19 @@ public class Driver {
 		}
 	}
 
-	public void addCar(Vehicle vehicle) {
+	public void addCar(Car vehicle) {
 		if (vehicle != null) {
 			this.cars.add(vehicle);
+		}
+	}
+	public void addBus(Bus vehicle) {
+		if (vehicle != null) {
+			this.buses.add(vehicle);
+		}
+	}
+	public void addTruck(Truck vehicle) {
+		if (vehicle != null) {
+			this.trucks.add(vehicle);
 		}
 	}
 

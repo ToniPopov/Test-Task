@@ -1,5 +1,6 @@
 package Bank;
 
+import java.util.Iterator;
 import java.util.Random;
 
 public class Demo {
@@ -15,6 +16,10 @@ public class Demo {
 		
 		Credit homeCredit = new Credit("Home credit" , (new Random().nextInt(60)+1),6,30000);
 		Credit consumerCredit = new Credit("Consumer credit" , (new Random().nextInt(60)+1),10,30000);
+//		for (Iterator iterator = collection.iterator(); iterator.hasNext();) {
+//			type type = (type) iterator.next();
+//			
+//		}
 		
 		
 		

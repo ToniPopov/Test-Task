@@ -37,7 +37,9 @@ public class Bank {
 		if (!this.deposits.isEmpty()) {
 			for (int i = 0; i < this.clients.size(); i++) {
 				int numOfDep = new Random().nextInt(this.deposits.size());
-				deposits.get(numOfDep);
+				this.deposits.get(numOfDep);
+//				System.out.println(this.deposits.get(numOfDep));
+//				System.out.println(numOfDep);
 				double procent = (new Random().nextInt(21) + 80) ;
 				System.out.println("Procenteeee "+procent);
 				Deposit dep = new Deposit(deposits.get(numOfDep).name, deposits.get(numOfDep).periodMounths,
